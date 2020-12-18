@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+    height: 100%;
+}
+.items-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 40px;
+}
+.list{
+    list-style: none;
+    padding: 0 20px;
+}
+.list a{
+    text-decoration: none;
+    color: inherit;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+
+
+.line-logo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0 40px;
+}
+.line-logo-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    margin: 0 40px;
+}
+.red, .white{
+    width: 5px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.red{
+    background: red;
+    margin: 1px 0;
+    border-radius: 5px;
+    order: 2;
+}
+.white{
+    background: white;
+    margin: 1px 0;
+    border-radius: 5px;
+}
+.mclaren{
+    background-image: url("mclaren-720s-closed.jpg");
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+
+}
+.specs{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    left: 50%;
+    color: rgba(255,255,255,.8);
+    transform: translateX(-50%);
+}
+
+.engine , .power, .torque ,.speed{
+    padding: 20px 40px;
+    text-align: center;
+}
+.engine p, .power p, .torque p ,.speed p{
+  font-size: .7em;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.model-name, .cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.model-name h1{
+    color: black;
+    font-size: 4em;
+    font-style: italic;
+    font-weight: 900;
+}
+.model-name h1 span{
+    color: red;
+}
+.model-name h3{
+    color: red;
+    font-size: 2em;
+    font-style: italic;
+}
+.model-name p{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.cost{
+    margin-top: 100px;
+}
+.cost h1{
+  font-size: 4em;
+  font-style: italic;
+  color: red;
+  font-weight: 900;
+}
+.start{
+    font-weight: 600;
+    font-size: 1em;
+}
+.tax{
+    font-size: .6em;
+}
